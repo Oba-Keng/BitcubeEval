@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bitcube Training facility</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-
+            scale=1.0"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="grid">
+      <div class="header">
+        <h1>Bitcube Training facility</h1>
+      </div>
+      <div class="lecturer-container">
+        <h2>Lecturer</h2>
+        <br />
+        Add Lecturer details =>
+
+        <button id="addLecturer" onclick="Access.addLecturer()">
+          add
+        </button>
+        <br />
+        <br />
+        <div id="lecturer-forenames"></div>
+        <br />
+        <div id="lecturer-surname"></div>
+        <br />
+        <div id="lecturer-email"></div>
+        <br />
+        <div id="lecturer-dob"></div>
+        <br />
+        <div id="lecturer-degree"></div>
+        <p id="link" style="font-size: 19px; font-weight: bold;"></p>
+        <br />
+        <div id="lecturer-fullname"></div>
+        <br />
+        <div id="lecturer-firstname"></div>
+        <br />
+      </div>
+      <div class="students-container">
+        <h2>Students</h2>
+        <br />
+        Add Student details =>
+        <button id="addStudents" onclick="Access.addStudents()">add</button>
+        <br />
+        <br />
+        <div id="forenames"></div>
+        <br />
+        <div id="surname"></div>
+        <br />
+        <div id="email"></div>
+        <br />
+        <div id="dob"></div>
+        <br />
+        <p id = "getDegreeLink" style = 
+            "color: green; font-size: 24px; font-weight: bold;"> 
+        </p> 
+        </a>
+        <button id="addCourse" onclick="Access.getDegreeLink()">link to degree</button>
+        <br />
+        <br>
+        <div id="fullname"></div>
+        <br />
+        <div id="firstname"></div>
+        <br />
+      </div>
+      <div class="degree-container">
+        <h2>Degree</h2>
+        <br />
+        Add Degree details =>
+
+        <button id="addDegree" onclick="Access.addDegree()">add</button>
+        <br />
+        <br />        
+        <div id="qualification-degree"></div>
+        <br />
+        <div id="qualification-duration"></div>
+        <br />
+        <div id="qualification-courses"></div>
+        <br />
+        <div id="qualification-lecturer"></div>
+        <br />
+      </div>
+      <div class="course-container">
+        <h2>Course</h2>
+        <br />
+        Add Course details =>
+
+        <button id="addCourse" onclick="Access.addCourse()">add</button>
+        <br />
+        <br />
+        <div id="Course-name"></div>
+        <br />
+        <div id="Course-duration"></div>
+        <br />
+        <div id="Course"></div>
+        <br />
+        <div id = "getDegreeLink" style = 
+        "color: green; font-size: 24px; font-weight: bold;"> 
+      </div> 
+    </a>
+    <button id="addCourse" onclick="Access.getDegreeLink()">link to degree</button>        <br />
+      </div>
+      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: gold;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background: gold;
+  color: black;
+  height: 80px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.lecturer-container {
+  grid-column-start: 1px;
+  grid-column-end: 2;
+  border: 1px solid orange;
+  background: rgb(128, 36, 0);
+  color: aliceblue;
+  text-align: center;
+}
+
+.students-container {
+  border: 1px solid orange;
+  background: rgb(128, 36, 0);
+  color: aliceblue;
+  text-align: center;
+}
+
+.degree-container {
+  border: 1px solid orange;
+  background: rgb(128, 36, 0);
+  color: aliceblue;
+  text-align: center;
+}
+
+.course-container {
+  border: 1px solid orange;
+  background: rgb(128, 36, 0);
+  color: aliceblue;
+  text-align: center;
+}
+
+button {
+  background: rgba(10, 145, 28, 0.226);
+  background-image: linear-gradient(bottom, #4984b4 0%, #619bcb 100%);
+  width: 50px;
+  height: 35px;
+  color: gold;
+}
